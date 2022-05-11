@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <main class="margin-center">
+        <div class="test__page">
+            <a href="./index.html"><img class="header__image" src="./images/Gums Matter.png" alt="Gums_matter"></a>
+            <h1 class="header__text"><strong>Take the gum health test*</strong></h1>
+
+            <div class="single__question">
+                <img src="./images/object_3.png" class="single__question__image" alt="question_image">
+                <div class="question">
+                    <p class="question__text">Do you ever spit blood when you brush?</p>
+                    <div class="options">
+                        <input type="radio" name="first_question" id="first_question_yes" value="yes">
+                        <label for="first_question_yes">Yes</label bel>
+                        <input type="radio" name="first_question" id="first_question_no" value="no">
+                        <label for="first_question_no">No</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="line">
+
+            <div class="single__question">
+                <img src="./images/object_4.png" class="single__question__image" alt="question_image">
+                <div class="question">
+                    <p class="question__text">Do you ever spit blood when you floss?</p>
+                    <div class="options">
+                        <input type="radio" name="second_question" id="second_question_yes" value="yes">
+                        <label for="second_question_yes">Yes</label>
+                        <input type="radio" name="second_question" id="second_question_no" value="no">
+                        <label for="second_question_no">No</label>
+                        <input type="radio" name="second_question" id="neverFloss" value="never floss">
+                        <label for="neverFloss">Never floss</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="line">
+
+            <div class="single__question">
+                <img src="./images/object_5.png" class="single__question__image" alt="question_image">
+                <div class="question">
+                    <p class="question__text">Have you noticed any of the following?</p>
+                    <div class="grid__options">
+                        <input type="checkbox" name="third_question" id="bad_breath" value="bad breath">
+                        <label for="bad_breath">Bad Breath</label>
+                        <input type="checkbox" name="third_question" id="swollen gums" value="swollen gums">
+                        <label for="swollen gums">Swollen Gums</label>
+                        <input type="checkbox" name="third_question" id="receding gums" value="receding gums">
+                        <label for="receding gums">Receding Gums</label>
+                        <input type="checkbox" name="third_question" id="loose teeth" value="loose teeth">
+                        <label for="loose teeth">Loose Teeth</label>
+                        <input type="checkbox" name="third_question" id="tooth Loss" value="tooth Loss">
+                        <label for="tooth Loss">Tooth Loss</label>
+                        <input type="checkbox" name="third_question" id="none" value="none">
+                        <label for="none">None</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="line">
+
+            <div class="single__question">
+                <img src="./images/object_6.png" class="single__question__image" alt="question_image">
+                <div class="question">
+                    <p class="question__text">How often do you brush your teeth?</p>
+                    <div class="grid__options">
+                        <input type="radio" name="fourth_question" id="once a day" value="once a day">
+                        <label for="once a day">Once a day</label>
+                        <input type="radio" name="fourth_question" id="twice a day" value="twice a day">
+                        <label for="twice a day">Twice a day</label>
+                        <input type="radio" name="fourth_question" id="thrice a day" value="thrice a day">
+                        <label for="thrice a day">Thrice a day</label>
+                        <input type="radio" name="fourth_question" id="less frequently" value="less frequently">
+                        <label for="less frequently">less frequently</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="line">
+
+
+            <div class="single__question">
+                <img src="./images/object_7.png" class="single__question__image" alt="question_image">
+                <div class="question">
+                    <p class="question__text">How often do you visit your dentist?</p>
+                    <div class="grid__options">
+                        <input type="radio" name="fifth_question" id="once in 6 months" value="once in 6 months">
+                        <label for="once in 6 months">Once in 6 months</label>
+                        <input type="radio" name="fifth_question" id="once a year" value="once a year">
+                        <label for="once a year">Once a Year</label>
+                        <input type="radio" name="fifth_question" id="not routinely" value="not routinely">
+                        <label for="not routinely">Not routinely</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="line">
+
+            <div class="single__question">
+                <img src="./images/object_8.png" class="single__question__image" alt="question_image">
+                <div class="question">
+                    <p class="question__text">Do you smoke?</p>
+                    <div class="options">
+                        <input type="radio" name="sixth_question" id="sixth_question_yes" value="yes">
+                        <label for="sixth_question_yes">Yes</label>
+                        <input type="radio" name="sixth_question" id="sixth_question_no" value="no">
+                        <label for="sixth_question_no">No</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <p class="margin-center">Show this to your dentist, and ask for a toothpaste to help you manage your gum
+                    health well.
+                </p>
+            </div>
+
+
+            <button class="btn submit">Sumit</button>
+
+        </div>
+
+        <div class="modal">
+            <img src="./images/Gums Matter.png" alt="Gums_matter">
+            <h1>Thank you for taking this survey!</h1>
+            <button class="btn modal__btn">Done</button>
+        </div>
+
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
